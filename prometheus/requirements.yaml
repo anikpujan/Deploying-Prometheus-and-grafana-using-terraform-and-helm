@@ -1,0 +1,11 @@
+dependencies:
+
+  - name: kube-state-metrics
+    version: "2.8.*"
+    repository: https://kubernetes-charts.storage.googleapis.com/
+    condition: kubeStateMetrics.enabled
+  # - name: grafana
+  #   version: "5.5.7"
+  #   repository: /vagrant_data/grafana/custom-dashboards
+  #   condition: deployGrafana
+
